@@ -35,3 +35,5 @@ console.log("launchReady = ", launchReady);
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+
+//program is NOT behaving as expected - the crew and computer status if/else block overwrites the failure of the fuel level check

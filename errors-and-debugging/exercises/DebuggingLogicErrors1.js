@@ -30,3 +30,5 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+
+//Shuttle should not have launched based on block starting at line 11 (fuel level too low), but 'launchReady' was reassigned to 'true' in block starting at line 19 (fuel status wasn't included in evaluation)

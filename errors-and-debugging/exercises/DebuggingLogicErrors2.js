@@ -16,7 +16,7 @@ if (fuelLevel >= 20000) {
    console.log('WARNING: Insufficient fuel!');
    launchReady = false;
 }
-
+console.log(launchReady);
 // if (crewStatus && computerStatus === 'green'){
 //    console.log('Crew & computer cleared.');
 //    launchReady = true;
@@ -31,3 +31,5 @@ if (fuelLevel >= 20000) {
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+
+//the if/else block for fuel level works correctly - this correctly evaluates to false when fuel level is < 20000
