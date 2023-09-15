@@ -15,8 +15,10 @@ let fuelLevel = "100%";
 let weatherStatus = "clear";
 let preparedForLiftOff = true;
 
+//extra variables
 let line = "######################################################################"
 let noLaunch = "Not all required conditions have been met - LAUNCH SCRUBBED!"
+
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
 if (astronautCount <= 7) {
 
