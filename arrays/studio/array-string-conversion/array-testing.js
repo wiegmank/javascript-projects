@@ -11,11 +11,7 @@ function reverseCommas(someString) {
 	let check;
 	if (someString.includes(',')) {
 		newString = someString.split(',').reverse().join(',');
-	} //else if (someString.includes(';')) {
-		//newString = someString.split(';').reverse().join(';');
-	//} else if (someString.includes(' ')) {
-		//newString = someString.split(' ').reverse().join(' ');
-	//}
+	} 
 	let output = newString;
 	//TODO: 2. write the code required for this step
 
