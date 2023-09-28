@@ -5,3 +5,8 @@ function reverse(str) {
 }
 
 console.log(reverse("LaunchCode"));
+
+let reverser = function(string) {
+  let lettersArray = str.split('').reverse().join('');
+  return lettersArray;
+}
