@@ -5,24 +5,27 @@ let launchcode = {
     percentageCoolEmployees: 100,
     programsOffered: ["Web Development", "Data Analysis", "Liftoff"],
     launchOutput: function(someNumber){
-        if (someNumber % 2 == 0 && someNumber % 3 == 0 && someNumber % 5 == 0) {
-            return "LaunchCode Rocks!"
-        } else if (someNumber % 2 != 0 || someNumber % 3 != 0 || someNumber % 5 != 0) {
-            return "Rutabagas! That doesn't work."
-        }
-        
-        
-        
         if (someNumber % 2 == 0) {
-            return "Launch!"
+            if (someNumber % 3 == 0) {
+                if (someNumber % 5 == 0) {
+                    return `LaunchCode Rocks!`
+                }
+                return `LaunchCode!`
+            } else if (someNumber % 5 == 0) {
+                return `Launch Rocks! (CRASH!!!!)`
+            }
+            return `Launch!`
         } else if (someNumber % 3 == 0) {
-            return "Code!"
+            if (someNumber % 5 == 0 ) {
+                return `Code Rocks!`
+            } 
+            return `Code!`
         } else if (someNumber % 5 == 0) {
-            return "Rocks!"
+            return `Rocks!`
+        } else {
+            return `Rutabagas! That doesn't work.`
         }
-        return `This is a string`
     }
 };
 
 module.exports = launchcode;
-
