@@ -3,6 +3,10 @@
 
 window.addEventListener("load", function() {
 
+    init();
+});
+
+function init() {
     const takeoff = document.getElementById("takeoff");
     const flightStatus = document.getElementById("flightStatus");
     const shuttleBackground = document.getElementById("shuttleBackground");
@@ -82,4 +86,4 @@ window.addEventListener("load", function() {
         rocket.style.left = movement;
         };
     });
-});
+};
