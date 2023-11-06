@@ -1,0 +1,43 @@
+body {
+    background-color: slategray;
+    
+    padding-top: 70px;
+}
+
+h1 {
+    font-size: 4em;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    outline: solid;
+}
+
+label {
+    white-space: nowrap;
+}
+
+/* classes */
+
+/* ID */
+#searchbar {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    height: 50px
+}
+#q {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 30%
+}
+#submit {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+}
